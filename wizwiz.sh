@@ -317,7 +317,7 @@ wait
         sleep 1
 
         curl -F "url=https://${YOUR_DOMAIN}/wizwizxui-timebot/bot.php" "https://api.telegram.org/bot${YOUR_BOT_TOKEN}/setWebhook"
-        MESSAGE="✅ The wizwiz bot has been successfully installed! @wizwizch"
+        MESSAGE="✅ The bot has been successfully installed! @iamvpnch"
         curl -s -X POST "https://api.telegram.org/bot${YOUR_BOT_TOKEN}/sendMessage" -d chat_id="${YOUR_CHAT_ID}" -d text="$MESSAGE"
         
         
